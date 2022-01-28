@@ -51,8 +51,6 @@ class MainActivity : ComponentActivity() {
                                 var result = Gson().fromJson(json, Result::class.java)
                                 OpeqeDetail(result = result)
                             }
-
-
                         }
                     }
                 }

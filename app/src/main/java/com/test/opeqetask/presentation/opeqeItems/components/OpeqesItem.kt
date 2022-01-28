@@ -28,12 +28,11 @@ fun OpeqesItem(
 
     Box(
         modifier = Modifier
-
+            .pagePaddings()
+            .fillMaxSize()
             .clickable {
                 onItemClick()
             }
-            .pagePaddings()
-            .fillMaxSize()
     ) {
         Row(horizontalArrangement = Arrangement.SpaceBetween ,
             verticalAlignment = Alignment.Bottom) {
@@ -138,9 +137,6 @@ fun OpeqesItem(
                     imageModel = result.picture.thumbnail,
                     contentScale = ContentScale.Crop,
                     circularRevealedEnabled = true,
-                    // placeHolder = ImageBitmap.imageResource(R.drawable.ic_launcher_background),
-
-                    // error = ImageBitmap.imageResource(R.drawable.ic_launcher_background)
                 )
 
             }

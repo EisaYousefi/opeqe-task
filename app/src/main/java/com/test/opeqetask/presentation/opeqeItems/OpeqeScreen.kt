@@ -66,6 +66,6 @@ fun OpeqeScreen(
 fun navigationToDetail(navController: NavHostController,result: Result){
     val resultJson = Gson().toJson(result)
     navController.navigate(
-        "opeqe-details-screen/$resultJson"
+        "detailScreen/$resultJson"
     )
 }
