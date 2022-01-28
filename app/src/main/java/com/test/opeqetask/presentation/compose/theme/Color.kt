@@ -1,4 +1,4 @@
-package com.test.opeqetask.ui.theme
+package com.test.opeqetask.presentation.compose.theme
 
 
 import androidx.compose.material.Colors
